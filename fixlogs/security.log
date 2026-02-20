@@ -1,2 +1,29 @@
-此文件由 GitHub Actions 工作流自动生成，每次运行时覆盖。
-运行工作流后此处将显示代码安全审查结果（bandit）。
+=== Security audit (bandit): Fri Feb 20 13:22:18 UTC 2026 ===
+
+[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.10.19
+Run started:2026-02-20 13:22:19.140792
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 115
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
