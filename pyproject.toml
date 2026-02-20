@@ -10,6 +10,14 @@ readme = "README.md"
 license = "LGPL-2.1-or-later"
 requires-python = ">=3.10"
 
+[project.optional-dependencies]
+dev = [
+    "ruff==0.9.7",
+    "black==25.1.0",
+    "mypy==1.14.1",
+    "bandit==1.8.3",
+]
+
 [project.scripts]
 init-project = "init_project:main"
 
